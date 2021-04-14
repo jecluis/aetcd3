@@ -7,14 +7,14 @@ def _get_long_description():
 
 
 setuptools.setup(
-    name='aetcd3',
+    name='aquarium-aetcd3',
     use_scm_version=True,
     description='Python asyncio based client for the etcd API v3',
     long_description=_get_long_description(),
     long_description_content_type='text/x-rst',
-    author='Andrey Martyanov',
-    author_email='andrey@martyanov.com',
-    url='https://github.com/martyanov/aetcd3',
+    author='Joao Eduardo Luis',
+    author_email='joao@suse.com',
+    url='https://github.com/jecluis/aetcd3',
     packages=[
         'aetcd3',
         'aetcd3.etcdrpc',
@@ -36,8 +36,9 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     project_urls={
-        'Bug Reports': 'https://github.com/martyanov/aetcd3/issues',
-        'Repository': 'https://github.com/martyanov/aetcd3',
+        'Original Repository': 'https://github.com/martyanov/aetcd3',
+        'Aquarium Fork': 'https://github.com/jecluis/aetcd3',
+        'Project Aquarium': 'https://github.com/aquarist-labs/aquarium'
     },
     python_requires='>=3.8,<4.0',
     setup_requires=[
